@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650F332D21B216D7005313A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F332C21B216D7005313A1 /* AppDelegate.m */; };
+		650F333021B216D7005313A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F332F21B216D7005313A1 /* ViewController.m */; };
+		650F333221B216D8005313A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650F333121B216D8005313A1 /* Assets.xcassets */; };
+		650F333521B216D8005313A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650F333321B216D8005313A1 /* Main.storyboard */; };
+		650F333821B216D8005313A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F333721B216D8005313A1 /* main.m */; };
+		650F334321B216D8005313A1 /* JustScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F334221B216D8005313A1 /* JustScrollViewTests.m */; };
+		650F334E21B216D8005313A1 /* JustScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F334D21B216D8005313A1 /* JustScrollViewUITests.m */; };
+		650F335E21B21755005313A1 /* JustScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F335D21B21755005313A1 /* JustScrollView.m */; };
+		650F336121B21774005313A1 /* JustScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F336021B21774005313A1 /* JustScroller.m */; };
+		650F336421B217A8005313A1 /* JustRefreshLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F336321B217A8005313A1 /* JustRefreshLoadView.m */; };
+		650F336721B21E2B005313A1 /* JustPullAndDrapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F336621B21E2B005313A1 /* JustPullAndDrapView.m */; };
+		650F336A21B21FF3005313A1 /* JustClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F336921B21FF3005313A1 /* JustClipView.m */; };
+		650F336E21B2215D005313A1 /* just_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 650F336C21B2215D005313A1 /* just_arrow.png */; };
+		650F336F21B2215D005313A1 /* just_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 650F336D21B2215D005313A1 /* just_arrow@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650F333F21B216D8005313A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F332021B216D7005313A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F332721B216D7005313A1;
+			remoteInfo = JustScrollView;
+		};
+		650F334A21B216D8005313A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F332021B216D7005313A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F332721B216D7005313A1;
+			remoteInfo = JustScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650F332821B216D7005313A1 /* JustScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F332B21B216D7005313A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		650F332C21B216D7005313A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		650F332E21B216D7005313A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		650F332F21B216D7005313A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		650F333121B216D8005313A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		650F333421B216D8005313A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		650F333621B216D8005313A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650F333721B216D8005313A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		650F333921B216D8005313A1 /* JustScrollView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JustScrollView.entitlements; sourceTree = "<group>"; };
+		650F333E21B216D8005313A1 /* JustScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F334221B216D8005313A1 /* JustScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustScrollViewTests.m; sourceTree = "<group>"; };
+		650F334421B216D8005313A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650F334921B216D8005313A1 /* JustScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F334D21B216D8005313A1 /* JustScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustScrollViewUITests.m; sourceTree = "<group>"; };
+		650F334F21B216D8005313A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650F335C21B21755005313A1 /* JustScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustScrollView.h; sourceTree = "<group>"; };
+		650F335D21B21755005313A1 /* JustScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustScrollView.m; sourceTree = "<group>"; };
+		650F335F21B21774005313A1 /* JustScroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustScroller.h; sourceTree = "<group>"; };
+		650F336021B21774005313A1 /* JustScroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustScroller.m; sourceTree = "<group>"; };
+		650F336221B217A8005313A1 /* JustRefreshLoadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustRefreshLoadView.h; sourceTree = "<group>"; };
+		650F336321B217A8005313A1 /* JustRefreshLoadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustRefreshLoadView.m; sourceTree = "<group>"; };
+		650F336521B21E2B005313A1 /* JustPullAndDrapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustPullAndDrapView.h; sourceTree = "<group>"; };
+		650F336621B21E2B005313A1 /* JustPullAndDrapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustPullAndDrapView.m; sourceTree = "<group>"; };
+		650F336821B21FF3005313A1 /* JustClipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustClipView.h; sourceTree = "<group>"; };
+		650F336921B21FF3005313A1 /* JustClipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustClipView.m; sourceTree = "<group>"; };
+		650F336C21B2215D005313A1 /* just_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = just_arrow.png; sourceTree = "<group>"; };
+		650F336D21B2215D005313A1 /* just_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "just_arrow@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650F332521B216D7005313A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F333B21B216D8005313A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F334621B216D8005313A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650F331F21B216D7005313A1 = {
+			isa = PBXGroup;
+			children = (
+				650F332A21B216D7005313A1 /* JustScrollView */,
+				650F334121B216D8005313A1 /* JustScrollViewTests */,
+				650F334C21B216D8005313A1 /* JustScrollViewUITests */,
+				650F332921B216D7005313A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650F332921B216D7005313A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650F332821B216D7005313A1 /* JustScrollView.app */,
+				650F333E21B216D8005313A1 /* JustScrollViewTests.xctest */,
+				650F334921B216D8005313A1 /* JustScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650F332A21B216D7005313A1 /* JustScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				650F335B21B216E7005313A1 /* JScrollView */,
+				650F332B21B216D7005313A1 /* AppDelegate.h */,
+				650F332C21B216D7005313A1 /* AppDelegate.m */,
+				650F332E21B216D7005313A1 /* ViewController.h */,
+				650F332F21B216D7005313A1 /* ViewController.m */,
+				650F333121B216D8005313A1 /* Assets.xcassets */,
+				650F333321B216D8005313A1 /* Main.storyboard */,
+				650F333621B216D8005313A1 /* Info.plist */,
+				650F333721B216D8005313A1 /* main.m */,
+				650F333921B216D8005313A1 /* JustScrollView.entitlements */,
+			);
+			path = JustScrollView;
+			sourceTree = "<group>";
+		};
+		650F334121B216D8005313A1 /* JustScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				650F334221B216D8005313A1 /* JustScrollViewTests.m */,
+				650F334421B216D8005313A1 /* Info.plist */,
+			);
+			path = JustScrollViewTests;
+			sourceTree = "<group>";
+		};
+		650F334C21B216D8005313A1 /* JustScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				650F334D21B216D8005313A1 /* JustScrollViewUITests.m */,
+				650F334F21B216D8005313A1 /* Info.plist */,
+			);
+			path = JustScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		650F335B21B216E7005313A1 /* JScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				650F336B21B2213E005313A1 /* resources */,
+				650F335F21B21774005313A1 /* JustScroller.h */,
+				650F336021B21774005313A1 /* JustScroller.m */,
+				650F335C21B21755005313A1 /* JustScrollView.h */,
+				650F335D21B21755005313A1 /* JustScrollView.m */,
+				650F336221B217A8005313A1 /* JustRefreshLoadView.h */,
+				650F336321B217A8005313A1 /* JustRefreshLoadView.m */,
+				650F336821B21FF3005313A1 /* JustClipView.h */,
+				650F336921B21FF3005313A1 /* JustClipView.m */,
+				650F336521B21E2B005313A1 /* JustPullAndDrapView.h */,
+				650F336621B21E2B005313A1 /* JustPullAndDrapView.m */,
+			);
+			path = JScrollView;
+			sourceTree = "<group>";
+		};
+		650F336B21B2213E005313A1 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				650F336C21B2215D005313A1 /* just_arrow.png */,
+				650F336D21B2215D005313A1 /* just_arrow@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650F332721B216D7005313A1 /* JustScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F335221B216D8005313A1 /* Build configuration list for PBXNativeTarget "JustScrollView" */;
+			buildPhases = (
+				650F332421B216D7005313A1 /* Sources */,
+				650F332521B216D7005313A1 /* Frameworks */,
+				650F332621B216D7005313A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustScrollView;
+			productName = JustScrollView;
+			productReference = 650F332821B216D7005313A1 /* JustScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650F333D21B216D8005313A1 /* JustScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F335521B216D8005313A1 /* Build configuration list for PBXNativeTarget "JustScrollViewTests" */;
+			buildPhases = (
+				650F333A21B216D8005313A1 /* Sources */,
+				650F333B21B216D8005313A1 /* Frameworks */,
+				650F333C21B216D8005313A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F334021B216D8005313A1 /* PBXTargetDependency */,
+			);
+			name = JustScrollViewTests;
+			productName = JustScrollViewTests;
+			productReference = 650F333E21B216D8005313A1 /* JustScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		650F334821B216D8005313A1 /* JustScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F335821B216D8005313A1 /* Build configuration list for PBXNativeTarget "JustScrollViewUITests" */;
+			buildPhases = (
+				650F334521B216D8005313A1 /* Sources */,
+				650F334621B216D8005313A1 /* Frameworks */,
+				650F334721B216D8005313A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F334B21B216D8005313A1 /* PBXTargetDependency */,
+			);
+			name = JustScrollViewUITests;
+			productName = JustScrollViewUITests;
+			productReference = 650F334921B216D8005313A1 /* JustScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650F332021B216D7005313A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = PeachRain;
+				TargetAttributes = {
+					650F332721B216D7005313A1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					650F333D21B216D8005313A1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 650F332721B216D7005313A1;
+					};
+					650F334821B216D8005313A1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 650F332721B216D7005313A1;
+					};
+				};
+			};
+			buildConfigurationList = 650F332321B216D7005313A1 /* Build configuration list for PBXProject "JustScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 650F331F21B216D7005313A1;
+			productRefGroup = 650F332921B216D7005313A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650F332721B216D7005313A1 /* JustScrollView */,
+				650F333D21B216D8005313A1 /* JustScrollViewTests */,
+				650F334821B216D8005313A1 /* JustScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650F332621B216D7005313A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F333221B216D8005313A1 /* Assets.xcassets in Resources */,
+				650F336E21B2215D005313A1 /* just_arrow.png in Resources */,
+				650F336F21B2215D005313A1 /* just_arrow@2x.png in Resources */,
+				650F333521B216D8005313A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F333C21B216D8005313A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F334721B216D8005313A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650F332421B216D7005313A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F333021B216D7005313A1 /* ViewController.m in Sources */,
+				650F333821B216D8005313A1 /* main.m in Sources */,
+				650F336A21B21FF3005313A1 /* JustClipView.m in Sources */,
+				650F336121B21774005313A1 /* JustScroller.m in Sources */,
+				650F336721B21E2B005313A1 /* JustPullAndDrapView.m in Sources */,
+				650F332D21B216D7005313A1 /* AppDelegate.m in Sources */,
+				650F336421B217A8005313A1 /* JustRefreshLoadView.m in Sources */,
+				650F335E21B21755005313A1 /* JustScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F333A21B216D8005313A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F334321B216D8005313A1 /* JustScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F334521B216D8005313A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F334E21B216D8005313A1 /* JustScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650F334021B216D8005313A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F332721B216D7005313A1 /* JustScrollView */;
+			targetProxy = 650F333F21B216D8005313A1 /* PBXContainerItemProxy */;
+		};
+		650F334B21B216D8005313A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F332721B216D7005313A1 /* JustScrollView */;
+			targetProxy = 650F334A21B216D8005313A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650F333321B216D8005313A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F333421B216D8005313A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650F335021B216D8005313A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		650F335121B216D8005313A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		650F335321B216D8005313A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JustScrollView/JustScrollView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JustScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeachRain.JustScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		650F335421B216D8005313A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JustScrollView/JustScrollView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JustScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeachRain.JustScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		650F335621B216D8005313A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JustScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeachRain.JustScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustScrollView.app/Contents/MacOS/JustScrollView";
+			};
+			name = Debug;
+		};
+		650F335721B216D8005313A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JustScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeachRain.JustScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustScrollView.app/Contents/MacOS/JustScrollView";
+			};
+			name = Release;
+		};
+		650F335921B216D8005313A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JustScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeachRain.JustScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JustScrollView;
+			};
+			name = Debug;
+		};
+		650F335A21B216D8005313A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JustScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeachRain.JustScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JustScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650F332321B216D7005313A1 /* Build configuration list for PBXProject "JustScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F335021B216D8005313A1 /* Debug */,
+				650F335121B216D8005313A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F335221B216D8005313A1 /* Build configuration list for PBXNativeTarget "JustScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F335321B216D8005313A1 /* Debug */,
+				650F335421B216D8005313A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F335521B216D8005313A1 /* Build configuration list for PBXNativeTarget "JustScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F335621B216D8005313A1 /* Debug */,
+				650F335721B216D8005313A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F335821B216D8005313A1 /* Build configuration list for PBXNativeTarget "JustScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F335921B216D8005313A1 /* Debug */,
+				650F335A21B216D8005313A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650F332021B216D7005313A1 /* Project object */;
+}
